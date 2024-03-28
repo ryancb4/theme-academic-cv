@@ -9,7 +9,9 @@ appearance:
   theme_day: minimal
   theme_night: minimal
   font: minimal
-  font_size: L
+  font_size: S
+  mode: light
+  color: green
 
 # SEO
 
@@ -49,8 +51,9 @@ footer:
     license:
       enable: true
       allow_derivatives: false
-      share_alike: true
-      allow_commercial: false
+      share_alike: false
+      allow_commercial: true 
+      # alse
 
 # Localization
 
@@ -75,7 +78,7 @@ features:
     branch: main
   avatar:
     gravatar: false
-    shape: circle
+    shape: square
   comment:
     provider: ''
     disqus:
@@ -98,7 +101,7 @@ features:
   map:
     provider: 'mapnik'
     api_key: ''
-    zoom: 15
+    zoom: 7
 
 # Extensions
 
