@@ -1,15 +1,14 @@
 ---
-title: "Cyber-Security Knowledge Graph Generation by Hierarchical Nonnegative Matrix Factorization"
+title: "Catch 'em all, Classification of Rare, Prominent, and Novel Malware Families"
 authors:
- - Ryan Barron
  - Maksim E. Eren
+ - Ryan Barron
  - Manish Bhattarai
  - Selma Wanna
  - Nicholas Solovyev
  - Kim Rasmussen
  - Boian S. Alexandrov
  - Charles Nicholas
- - Cynthia Matuszek
 # author_notes:
 # - "Equal contribution"
 # - "Equal contribution"
@@ -28,7 +27,7 @@ publication_types: ["conference"]
 publication: "*12th International Symposium on Digital Forensics and Security 2024*"
 publication_short: ""
 
-abstract: Much of human knowledge in cybersecurity is encapsulated within the ever-growing volume of scientific papers. As this textual data continues to expand, the importance of document organization methods becomes increasingly crucial for extracting actionable insights hidden within large text datasets. Knowledge Graphs (KGs) serve as a means to store factual information in a structured manner, providing explicit, interpretable knowledge that includes domain-specific information from the cybersecurity scientific literature. One of the challenges in constructing a KG from scientific literature is the extraction of ontology from unstructured text. In this paper, we address this topic and introduce a method for building a multi-modal KG by extracting structured ontology from scientific papers. We demonstrate this concept in the cybersecurity domain. One modality of the KG represents observable information from the papers, such as the categories in which they were published or the authors. The second modality uncovers latent (hidden) patterns of text extracted through hierarchical and semantic non-negative matrix factorization (NMF), such as named entities, topics or clusters, and keywords. We illustrate this concept by consolidating more than two million scientific papers uploaded to arXiv into the cyber-domain, using hierarchical and semantic NMF, and by building a cyber-domain-specific KG.
+abstract: National security is threatened by malware, which remains one of the most dangerous and costly cyber threats. As of last year, researchers reported 1.3 billion known malware specimens, motivating the use of data-driven machine learning (ML) methods for analysis. However, shortcomings in existing ML approaches hinder their mass adoption. These challenges include detection of novel malware and the ability to perform malware classification in the face of class imbalance-- a situation where malware families are not equally represented in the data. Our work addresses these shortcomings with MalwareDNA-- an advanced dimensionality reduction and feature extraction framework. We demonstrate stable task performance under class imbalance for the following tasks-- malware family classification and novel malware detection with a trade-off in increased abstention or reject-option rate.
 
 
 # # Summary. An optional shortened abstract.
@@ -41,7 +40,7 @@ abstract: Much of human knowledge in cybersecurity is encapsulated within the ev
 # links:
 # - name: ""
 #   url: ""
-url_pdf: https://arxiv.org/pdf/2403.16222.pdf
+url_pdf: https://arxiv.org/pdf/2403.02546.pdf
 url_code: ''
 url_dataset: ''
 url_poster: ''

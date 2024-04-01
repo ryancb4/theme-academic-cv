@@ -50,41 +50,71 @@ sections:
       username: admin
     design:
       columns: '1'
-  # - block: experience
-  #   content:
-  #     title: Experience
-  #     # Date format for experience
-  #     #   Refer to https://docs.hugoblox.com/customization/#date-format
-  #     date_format: Jan 2006
-  #     # Experiences.
-  #     #   Add/remove as many `experience` items below as you like.
-  #     #   Required fields are `title`, `company`, and `date_start`.
-  #     #   Leave `date_end` empty if it's your current employer.
-  #     #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-  #     items:
-  #       - title: CEO
-  #         company: GenCoin
-  #         company_url: ''
-  #         company_logo: org-gc
-  #         location: California
-  #         date_start: '2021-01-01'
-  #         date_end: ''
-  #         description: |2-
-  #             Responsibilities include:
+  - block: experience
+    content:
+      title: Experience
+      # Date format for experience
+      #   Refer to https://docs.hugoblox.com/customization/#date-format
+      date_format: Jan 2006
+      # Experiences.
+      #   Add/remove as many `experience` items below as you like.
+      #   Required fields are `title`, `company`, and `date_start`.
+      #   Leave `date_end` empty if it's your current employer.
+      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+      items:
+        - title: Graduate Research Assistant (GRA)
+          company: Los Alamos National Laboratory (LANL)
+          company_url: 'https://www.lanl.gov/'
+          company_logo: 
+          location: Los Alamos, New Mexico
+          date_start: '2022-08-01'
+          date_end: ''
+          description: |2-
+              Eperiences include:
+              * Dense Domain-specific Knowledge graph construction for LLM knowledge bases
+              * Training datasets for LLM fine-tuning
+              * Matrix decomposition on large, irregular text patterns
+        - title: Adjunct Lecturer
+          company: Department of Computer Science, UMBC
+          company_url: 'https://www.csee.umbc.edu/undergraduate/computer-science-bs/'
+          company_logo: 
+          location: Baltimore, Maryland
+          date_start: '2022-08-01'
+          date_end: '2023-07-31'
+          description:  |2-
+            Classes taught:
+              * Introduction to Computer Science I, Python
+              * Advanced Programming, Python
+              * Data Analysis and Structures, Python
+              * Introduction to Data Science
+              * Data Structures, C++
+        - title: Graduate Teaching Assistant
+          company: Department of Computer Science, UMBC
+          company_url: 'https://www.csee.umbc.edu/graduate/computer-science-m-s-ph-d/'
+          company_logo: 
+          location: Baltimore, Maryland
+          date_start: '2021-01-01'
+          date_end: '2023-01-31'
+          description:  |2-
+            Classes:
+              * Principles of Computer Security (CMSC 426)
+              * Natural Language Processing (CMSC 473/673)
+              * Social and Ethical Issues in Information Technology (CMSC 304)
+              * Operating Systems in the C Programming Language (CMSC 421)
+        - title: Undergraduate Teaching Fellow & Assistant
+          company: Department of Computer Science, UMBC
+          company_url: 'https://www.csee.umbc.edu/undergraduate/computer-science-bs/'
+          company_logo: 
+          location: Baltimore, Maryland
+          date_start: '2019-08-01'
+          date_end: '2020-12-31'
+          description:  |2-
+            Classes:
+            * Data Structures, C++
+            * Introduction to Computer Science I, Python
 
-  #             * Analysing
-  #             * Modelling
-  #             * Deploying
-  #       - title: Professor of Semiconductor Physics
-  #         company: University X
-  #         company_url: ''
-  #         company_logo: org-x
-  #         location: California
-  #         date_start: '2016-01-01'
-  #         date_end: '2020-12-31'
-  #         description: Taught electronic engineering and researched semiconductor physics.
-  #   design:
-  #     columns: '2'
+    design:
+      columns: '2'
   # - block: accomplishments
   #   content:
   #     # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
@@ -202,20 +232,20 @@ sections:
   #     view: card
 
   #TODO
-  # - block: collection
-    # content:
-    #   title: Recent Publications
-    #   text: |-
-    #     {{% callout note %}}
-    #     Quickly discover relevant content by [filtering publications](./publication/).
-    #     {{% /callout %}}
-    #   filters:
-    #     folders:
-    #       - publication
-    #     exclude_featured: true
-    # design:
-    #   columns: '2'
-    #   view: citation
+  - block: collection
+    content:
+      title: Publications
+      text: |-
+        {{% callout note %}}
+        Quickly discover relevant content by [filtering publications](./publication/).
+        {{% /callout %}}
+      filters:
+        folders:
+          - publication
+        exclude_featured: true
+    design:
+      columns: '2'
+      view: citation
 
   # - block: collection
   #   id: talks
@@ -236,9 +266,9 @@ sections:
     id: contact
     content:
       title: Contact
-      subtitle:
-      text: |-
-        Send Ryan a message.
+      # subtitle:
+      # text: |-
+      #   Send Ryan a message.
       # Contact (add or remove contact options as necessary)
       email: ryanb4@umbc.gov
       # phone: four four three 34O O617
@@ -275,13 +305,13 @@ sections:
       # Automatically link email and phone or display as text?
       autolink: true
       # Email form provider
-      form:
-        provider: netlify
-        formspree:
-          id:
-        netlify:
-          # Enable CAPTCHA challenge to reduce spam?
-          captcha: false
+      # form:
+      #   provider: netlify
+      #   formspree:
+      #     id:
+      #   netlify:
+      #     # Enable CAPTCHA challenge to reduce spam?
+      #     captcha: false
     design:
       columns: '2'
 ---
