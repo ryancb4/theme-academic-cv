@@ -62,17 +62,17 @@ skills:
     items:
       - name: Python
         description: ''
-        percent: 80
+        percent: 90
         icon: python
         icon_pack: fab
       - name: C++
         description: ''
-        percent: 70
+        percent: 80
         icon: chart-line
         icon_pack: fas
       - name: Neo4j
         description: ''
-        percent: 70
+        percent: 82
         icon: database
         icon_pack: fas
   - name: Hobbies
@@ -81,12 +81,12 @@ skills:
     items:
       - name: Language Learning
         description: ''
-        percent: 75
+        percent: 80
         icon: custom/language
         icon_pack: custom
       - name: Cats
         description: ''
-        percent: 90
+        percent: 95
         icon: cat
         icon_pack: fas
       - name: Motorcycles
