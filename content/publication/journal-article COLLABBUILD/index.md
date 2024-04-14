@@ -1,18 +1,15 @@
 ---
-title: "Catch 'em all, Classification of Rare, Prominent, and Novel Malware Families"
+title: "A Collaborative Building Task in VR vs. Reality"
 authors:
- - Maksim E. Eren
- - Ryan Barron
- - Manish Bhattarai
- - Selma Wanna
- - Nicholas Solovyev
- - Kim Rasmussen
- - Boian S. Alexandrov
- - Charles Nicholas
+- Padraig Higgins
+- Ryan Barron
+- Stephanie Lukin
+- Don Engel
+- Cynthia Matuszek
 # author_notes:
 # - "Equal contribution"
 # - "Equal contribution"
-date: "2024-04-01T00:00:00Z"
+date: "2023-09-26T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -24,10 +21,10 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["conference"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*12th International Symposium on Digital Forensics and Security 2024*"
+publication: "*18th International Symposium on Experimental Robotics (ISER 2023)*"
 publication_short: ""
 
-abstract: National security is threatened by malware, which remains one of the most dangerous and costly cyber threats. As of last year, researchers reported 1.3 billion known malware specimens, motivating the use of data-driven machine learning (ML) methods for analysis. However, shortcomings in existing ML approaches hinder their mass adoption. These challenges include detection of novel malware and the ability to perform malware classification in the face of class imbalance-- a situation where malware families are not equally represented in the data. Our work addresses these shortcomings with MalwareDNA-- an advanced dimensionality reduction and feature extraction framework. We demonstrate stable task performance under class imbalance for the following tasks-- malware family classification and novel malware detection with a trade-off in increased abstention or reject-option rate.
+abstract: Human-robot interaction is a critical area of research, providing support for collaborative tasks where a human instructs a robot to interact with and manipulate objects in an environment. However, an under-explored element of these collaborative manipulation tasks are small-scale building exercises, in which the human and robot are working together in close proximity with the same set of objects. Under these conditions, it is essential to ensure the human’s safety and mitigate comfort risks during the interaction. As there is danger in exposing humans to untested robots, a safe and controlled environment is required. Simulation and virtual reality (VR) for HRI have shown themselves to be suitable tools for creating space for human-robot experimentation that can be beneficial in these scenarios.
 
 
 # # Summary. An optional shortened abstract.
@@ -39,14 +36,14 @@ abstract: National security is threatened by malware, which remains one of the m
 
 # links:
 # - name: ""
-#   url: ""
-url_pdf: https://arxiv.org/pdf/2403.02546.pdf
+# url: https://ieeexplore.ieee.org/document/9900631
+url_pdf: https://iral.cs.umbc.edu/Pubs/Higgins2023ISER.pdf
 url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
 # url_slides: './'
-url_source: ''
+# url_source: 'https://ieeexplore.ieee.org/document/9900631'
 url_video: ''
 
 # Featured image
