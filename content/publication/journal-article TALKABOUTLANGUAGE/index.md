@@ -19,7 +19,7 @@ publication_types: ["conference"]
 # Publication name and optional abbreviated publication name.
 publication: "*1st Workshop on Safely Leveraging Vision-Language Foundation Models in Robotics: Challenges and Opportunities*"
 publication_short: ""
-abstract: 
+abstract: The linguistic quality of Embodied AI (EAI) datasets is underexplored. We present a feature extraction pipeline that quantifies diversity across token- and sentence-level traits such as lexical variation and syntactic complexity. Applied to multiple EAI datasets, our analysis reveals a reliance on repetitive language that may hinder generalization. A feature-guided paraphrasing case study on LIBERO-10 shows that minor syntactic shifts can cut OpenVLA’s success rate by over 50%, underscoring the value of fine-grained linguistic analysis for dataset design and model evaluation.
 # # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 # tags:
