@@ -1,5 +1,5 @@
 ---
-title: "HEAL}: Hierarchical Embedding Alignment Loss for Improved Retrieval and Representation Learning"
+title: "HEAL: Hierarchical Embedding Alignment Loss for Improved Retrieval and Representation Learning"
 authors:
 - Manish Bhattarai
 - Ryan Barron

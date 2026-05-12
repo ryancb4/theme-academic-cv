@@ -23,7 +23,7 @@ abstract:  |
 # links:
 # - name: ""
 #   url: ""
-url_pdf: ''
+url_pdf: 'uploads/barron_dissertation.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
