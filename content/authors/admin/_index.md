@@ -27,14 +27,14 @@ organizations:
     url: https://umbc.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include robotics, knowledge representations, tensors, & natural language processing.
+bio: My research interests include knowledge representations, tensors, & natural language processing.
 
 # Interests to show in About widget
 interests:
   - Knowledge Representation
-  - Robotics
-  - Tensors
+  - Algorithmic Optimization
   - Natural Language Processing
+  - Tensors
 
 # Education to show in About widget
 education:
@@ -128,7 +128,9 @@ social:
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-Ryan Barron is a PhD student in Computer Science at the University of Maryland, Baltimore County (UMBC), where he also earned his MS (2023) and BS (2021) in Computer Science, alongside a BA in Political Science (2021). As a full-time researcher at Los Alamos National Laboratory, Ryan is at the forefront of advancing knowledge representation, robotics, tensors, and natural language processing. His work, marked by innovative research and practical applications, aims to bridge the gap between theoretical computer science and tangible technological advancements.
+Ryan C. Barron is a computer scientist and researcher at Los Alamos National Laboratory whose work focuses on trustworthy domain-specific artificial intelligence, knowledge representation, retrieval-augmented reasoning, tensor and matrix factorization, robotics, and natural language processing. He earned his Ph.D. in Computer Science from the University of Maryland, Baltimore County in 2025, where his dissertation, Trustworthy Domain-Specific AI for Structured Knowledge Retrieval and Reasoning, examined methods for building scalable, interpretable AI systems that combine structured knowledge, vector retrieval, and hierarchical machine learning. He also earned his M.S. in Computer Science from UMBC in 2023, along with a B.S. in Computer Science and a B.A. in Political Science in 2021.
 
-Ryan's educational journey is marked by a distinctive combination of computer science and political science, fostering a multidisciplinary approach to addressing complex challenges in technology and societal issues. Beyond his academic pursuits, Ryan has practically applied his knowledge and insights as a congressional intern for Congressman Ruppersberger MD02 in 2018, where he gained invaluable experience in legislative processes and public service. Furthermore, his engagement extends to community and ethical leadership, as evidenced by his active membership in Door to Virtue Lodge #46 in Westminster, MD, since 2018, underscoring his commitment to contributing positively to society.
+At Los Alamos, Ryan works at the intersection of artificial intelligence, high-performance computing, knowledge graphs, tensors, machine learning, and domain-specific retrieval systems. His research emphasizes practical AI systems that can organize, retrieve, and reason over complex scientific, legal, technical, and national-security-relevant information. Rather than treating AI as a black box, his work focuses on systems that are interpretable, traceable, and useful for real-world decision support. 
+
+Ryan’s background combines deep technical training with a broader understanding of institutions, policy, and public service. His earlier academic path in both computer science and political science shaped a multidisciplinary approach to technology, especially in areas where AI systems must operate within legal, scientific, organizational, and human contexts. Before his research career, he served as a congressional intern for Congressman C. A. Dutch Ruppersberger of Maryland’s Second Congressional District, gaining experience with legislative processes and public service. He has also remained active in community and fraternal service through Door to Virtue Lodge #46 in Westminster, Maryland.
 {style="text-align: justify;"}
