@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Reseacher & PhD Student
+role: Scientist
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -41,7 +41,7 @@ education:
   courses:
     - course: PhD in Computer Science
       institution: University of Maryland, Baltimore County
-      year: Present
+      year: 2025
     - course: MS in Computer Science
       institution: University of Maryland, Baltimore County
       year: 2023

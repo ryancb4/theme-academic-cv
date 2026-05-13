@@ -29,7 +29,7 @@ abstract:  |
 # links:
 # - name: ""
 #   url: ""
-url_pdf: 'uploads/Limited Linguistic Diversity in Embodied AI Datasets.pdf'
+url_pdf: 'uploads/Limited_Linguistic_Diversity_in_Embodied_AI_Datasets.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''

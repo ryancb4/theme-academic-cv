@@ -62,13 +62,22 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+        - title: Scientists II
+          company: Los Alamos National Laboratory (LANL)
+          company_url: 'https://www.lanl.gov/'
+          company_logo: 
+          location: Los Alamos, New Mexico
+          date_start: '2025-10-01'
+          date_end: ''
+          description: ''
+
         - title: Graduate Research Assistant (GRA)
           company: Los Alamos National Laboratory (LANL)
           company_url: 'https://www.lanl.gov/'
           company_logo: 
           location: Los Alamos, New Mexico
           date_start: '2022-08-01'
-          date_end: ''
+          date_end: '2025-10-01'
           description: |2-
               Eperiences include:
               * Dense Domain-specific Knowledge graph construction for LLM knowledge bases
@@ -270,7 +279,7 @@ sections:
       # text: |-
       #   Send Ryan a message.
       # Contact (add or remove contact options as necessary)
-      email: ryanb4@umbc.gov
+      email: ryancbarron@gmail.com
       # phone: four four three 34O O617
       # appointment_url: 'https://calendly.com'
       # address:
