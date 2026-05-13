@@ -28,7 +28,7 @@ abstract: The linguistic quality of Embodied AI (EAI) datasets is underexplored.
 # links:
 # - name: ""
 #   url: ""
-url_pdf: 'url_pdf: uploads/Let_s_Talk_About_Language.pdf'
+url_pdf: 'uploads/Lets_Talk_About_Language.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''

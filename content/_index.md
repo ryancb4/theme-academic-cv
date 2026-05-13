@@ -62,7 +62,7 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: Scientists II
+        - title: Scientist II
           company: Los Alamos National Laboratory (LANL)
           company_url: 'https://www.lanl.gov/'
           company_logo: 
